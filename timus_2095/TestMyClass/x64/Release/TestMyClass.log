@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  test.cpp
+X:\Coding\C++\timus_2095\timus_2095\MyClass.cpp(12): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+X:\Coding\C++\timus_2095\TestMyClass\test.cpp(55): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+X:\Coding\C++\timus_2095\TestMyClass\test.cpp(56): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+X:\Coding\C++\timus_2095\TestMyClass\test.cpp(57): warning C4002: too many arguments for function-like macro invocation 'EXPECT_TRUE'
+  TestMyClass.vcxproj -> X:\Coding\C++\timus_2095\timus_2095\x64\Release\TestMyClass.exe
