@@ -1,0 +1,11 @@
+#ignore everything 
+**
+
+#except:
+!*.cpp
+!*.h
+!*.hpp
+
+#even if they are in subdirectories
+!**/
+ 
