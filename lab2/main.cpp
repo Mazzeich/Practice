@@ -1,5 +1,5 @@
-
 #include <algorithm>
+#include <QtTest/QtTest>
 
 std::pair<int, int> answer[50000] = { { 1, 1 }, { 1, 2 } };
 
@@ -17,12 +17,10 @@ int add(int* a, int* b)
 {
     int ret = 0;
 
-    for(int i = 0; i < l; i++)
-    {
+    for(int i = 0; i < l; i++){
         b[i] += a[i];
 
-        if(b[i] >= current_rubles)
-        {
+        if(b[i] >= current_rubles){
             b[i] -= current_rubles;
             b[i + 1]++;
             l = std::max(i + 2, l);
@@ -36,17 +34,14 @@ int add(int* a, int* b)
 void calcpre()
 {
     Ap[0] = pre[0] = 0;
-    for(int i = 1; i < current_rubles; i++)
-    {
+    for(int i = 1; i < current_rubles; i++){
         int j = 0;
         pre[i] = pre[i-1];
         Ap[j]++;
 
-        while(true)
-        {
+        while(true){
             pre[i]++;
-            if(Ap[j] >= k_rubles)
-            {
+            if(Ap[j] >= k_rubles){
                 Ap[j] -= k_rubles;
                 Ap[j+1]++;
                 pre[i] -= k_rubles;
@@ -72,13 +67,13 @@ int main()
 
     current_rubles = k_rubles;
 
-    while(current_rubles * k_rubles < 100000)
+    while(current_rubles * k_rubles < 100000){
         current_rubles *= k_rubles;
+    }
 
     calcpre();
 
-    for(int i = 2; i <= number_rifle; i++)
-    {
+    for(int i = 2; i <= number_rifle; i++){
         answer[i].first  = add(a, b);
         answer[i].second = i + 1;
 
@@ -87,6 +82,7 @@ int main()
 
     std::sort(answer, answer + number_rifle);
 
-    for(int i = 0; i < number_rifle; i++)
+    for(int i = 0; i < number_rifle; i++){
         printf("%d ", answer[i].second);
+    }
 }
