@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab03.dir/timus_2095.cpp.o CMakeFiles/lab03.dir/myClass.cpp.o CMakeFiles/lab03.dir/test.cpp.o  -o lab03 lib/libgtestd.a -lpthread 

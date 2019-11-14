@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Rice"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\OpenCV4\;CMake Files\..\..\..\OpenCV4\installation\;CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\;CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\;CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\cmake\;CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\cmake\opencv4\;CMake Files\lib\;CMake Files\lib\googletest\;CMake Files\lib\googletest\googlemock\;CMake Files\lib\googletest\googlemock\cmake\;CMake Files\lib\googletest\googletest\;CMake Files\lib\googletest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Rice">
+				<Option output="/home/oem/CLionProjects/Rice/src/Rice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googlemock/include"/>
+					<Add directory="/home/oem/OpenCV4/installation/OpenCV-master/include/opencv4"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 Rice"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Rice/fast">
+				<Option output="/home/oem/CLionProjects/Rice/src/Rice" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googlemock/include"/>
+					<Add directory="/home/oem/OpenCV4/installation/OpenCV-master/include/opencv4"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 Rice/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/oem/CLionProjects/Rice/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/oem/CLionProjects/Rice/src/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/include"/>
+					<Add directory="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/computerVision.cpp">
+			<Option target="Rice"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/computerVision.h">
+			<Option target="Rice"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/main.cpp">
+			<Option target="Rice"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/test.cpp">
+			<Option target="Rice"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/../../../OpenCV4/installation/OpenCV-master/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/../../../OpenCV4/installation/OpenCV-master/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/../../../OpenCV4/installation/OpenCV-master/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/../../../OpenCV4/installation/OpenCV-master/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\OpenCV4\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/oem/CLionProjects/Rice/src/lib/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

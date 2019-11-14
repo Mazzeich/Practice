@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
   testing::InitGoogleTest(&argc, argv);
   int code = RUN_ALL_TESTS();
   std::string dirName = "/home/oem/Practice/Rice/";
-  std::vector<std::string> files= getFileList(dirName);
+  std::vector<std::string> files = getFileList(dirName);
 
   ofstream myfile;
   myfile.open ("res.csv");

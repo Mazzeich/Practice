@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Rice.dir/main.cpp.o CMakeFiles/Rice.dir/computerVision.cpp.o  -o Rice lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a -lpthread 
