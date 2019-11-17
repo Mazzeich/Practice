@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <QtTest/QtTest>
 
 std::pair<int, int> answer[50000] = { { 1, 1 }, { 1, 2 } };
 
@@ -13,8 +12,7 @@ int number_rifle;
 int k_rubles;
 int current_rubles;
 
-int add(int* a, int* b)
-{
+int add(int* a, int* b){
     int ret = 0;
 
     for(int i = 0; i < l; i++){
@@ -31,8 +29,7 @@ int add(int* a, int* b)
     return ret;
 }
 
-void calcpre()
-{
+void calcpre(){
     Ap[0] = pre[0] = 0;
     for(int i = 1; i < current_rubles; i++){
         int j = 0;
@@ -46,15 +43,15 @@ void calcpre()
                 Ap[j+1]++;
                 pre[i] -= k_rubles;
                 j++;
+            } else {
+            	break;
             }
-            else
-                break;
+            }
         }
     }
 }
 
-int main()
-{
+int main(){
     scanf("%d %d", &k_rubles, &number_rifle);
 
     array_1[0] = 1;
